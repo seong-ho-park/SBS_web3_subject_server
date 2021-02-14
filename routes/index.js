@@ -7,7 +7,7 @@ router.get('/', function (req, res) {
   console.log('/', req.session);
   res.redirect('https://psh4607.com/');
 });
-router.get('/portfolio/true', function (req, res) {
+router.get('/true', function (req, res) {
   console.log('/', req.session);
   fs.readFile('views/portfolio/true.html', function (err, html) {
     res.writeHead(200, {'Content-Type':'text/html'});
