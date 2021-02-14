@@ -5,9 +5,12 @@ var fs = require('fs');
 /* GET home page. */
 router.get('/', function (req, res) {
   console.log('/', req.session);
-  res.redirect('https://psh4607.com/');
+  fs.readFile('views/index.html', function (err, html) {
+    res.send('Nothing 404')
+    res.end(html);
+  });
 });
-router.get('/true', function (req, res) {
+router.get('/portfolio/true', function (req, res) {
   console.log('/', req.session);
   fs.readFile('views/portfolio/true.html', function (err, html) {
     res.writeHead(200, {'Content-Type':'text/html'});
