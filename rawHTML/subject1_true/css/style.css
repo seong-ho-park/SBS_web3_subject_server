@@ -86,7 +86,7 @@ header span{
     height: 3rem;
     float: left;
     margin-left:50px;
-    background: url(../../images/true/aside01.png) no-repeat ;
+    background: url(../images/aside01.png) no-repeat ;
 }
 
 header p{
@@ -106,7 +106,7 @@ main .top{
 }
 main .top .logo{
     height:100%;
-    background: url(../../images/true/logo.png) no-repeat center ;
+    background: url(../images/logo.png) no-repeat center ;
 }
 .wraper{
     width:95%;
