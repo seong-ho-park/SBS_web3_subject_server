@@ -1,4 +1,4 @@
-# SBS_Aca_Design_web3_subj
+# SBS_web3_subject_server
 SBS_Academy_Design_web3_subject_server
 
 
