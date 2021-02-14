@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>HUHS webteam</title>
+  
+    <!-- TODO CSS JS 위치 수정해야함    -->
+    <link href="stylesheets/main.css" rel="stylesheet">
+    <script src='javascripts/main.js'></script>
+    <link href='stylesheets/sticky.css' rel='stylesheet' type='text/css'>
+    <!--auto redirection mobile page-->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script type="text/javascript">
+
+        if (screen.width <= 699) {
+        document.location = "/m";
+        }
+        
+    </script>
+    <script>
+        $(document).ready(function(){                       //카테고리1 클릭 이벤트
+
+            $('ul.ul1 li').click(function(){               //선택자를 통해 tabs 메뉴를 클릭 이벤트를 지정해줍니다.
+                var tab_id = $(this).attr('data-tab');
+
+                $('ul.ul1 li').removeClass('current');     //선택 되있던 탭의 current css를 제거하고
+                $('.tab-content').removeClass('current');
+
+                $(this).addClass('current');                //선택된 탭에 current class를 삽입해줍니다.
+                $("#"+tab_id).addClass('current');
+            })
+        });
+
+        $(document).ready(function (){                      //카테고리1 html 불러오기
+            $("#index1").load("/intro")
+            $("#index2").load("/zocbo")
+            $("#index3").load("/notice")
+            $("#index4").load("/freeBoard")
+        })
+
+    </script>
+</head>
+<body>
+    <!--HEADER -->
+    <header>
+        <div class="bigtop">
+
+            <div class="top2area" >
+                    <!-- TODO 로고파일 위치도 수정해야함 -->
+                <div class="t2area_a"><a href="/"><img class="logo" src="../public/images/flogo.png" alt="logo"></a></div>
+                <div class="t2area_b"><div id="search"></div></div>
+                <div class="t2area_c">user</div>
+            </div>
+            <div class="top3area">
+                <nav class="navf">
+                    <div class="category">
+                        <ul class="ul1">
+                                <!-- TODO 페이지 링크도 수정해야함      -->
+                            <li class="category menu1" ><a class="category menu1 a" href="*" >소개</a></li>
+                            <li class="category menu1" ><a class="category menu1 a" href="*" >족보</a></li>
+                            <li class="category menu1" ><a class="category menu1 a" href="*" >공지사항</a></li>
+                            <li class="category menu1" ><a class="category menu1 a" href="*" >자유게시판</a></li>
+                        </ul>
+                        <ul class="ul2">
+                            <li class="category menu2" ><a class="category menu2 a" href="*">성호</a></li>
+                            <li class="category menu2" ><a class="category menu2 a" href="*">세하</a></li>
+
+                            <li class="category menu2" ><a class="category menu2 a" href="*">선웅</a></li>
+                            <li class="category menu2" ><a class="category menu2 a" href="./self4.html">은서</a></li>
+                            <li class="category menu2" ><a class="category menu2 a" href="../makeHTML/self5.html">진경</a></li>
+                            <li class="category menu2" ><a class="category menu2 a" href="*">진호</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="t2area_c">user</div>
+        </div>
+        <div class="top3area">
+                <div class="category">
+                    <ul class="ul1">
+                        <!-- TODO 페이지 링크도 수정해야함      -->
+                        <li class="category menu1 current" data-tab="tab-1">소개</li>
+                        <li class="category menu1" data-tab="tab-2">족보</li>
+                        <li class="category menu1" data-tab="tab-3">공지사항</li>
+                        <li class="category menu1" data-tab="tab-4">자유게시판</li>
+                    </ul>
+                    <ul class="ul2">
+                        <li class="category menu2" ><a class="category menu2 a" href="https://www.notion.so/ho4607/s-d48ddd4e18b540daa8f80e8f0b833155">성호</a></li>
+                        <li class="category menu2" ><a class="category menu2 a" href="*">세하</a></li>
+                        <li class="category menu2" ><a class="category menu2 a" href="SW">선웅</a></li>
+                        <li class="category menu2" ><a class="category menu2 a" href="*">은서</a></li>
+                        <li class="category menu2" ><a class="category menu2 a" href="JG">진경</a></li>
+                        <li class="category menu2" ><a class="category menu2 a" href="*">진호</a></li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+</header>
+<!-- main -->
+<div class = "wrap">
+    <main>
+        <div id="tab-1" class="tab-content current">
+            <p id="index1">오류(소개)</p>
+        </div>
+        <div id="tab-2" class="tab-content">
+            <p id="index2">오류(족보)</p>
+        </div>
+        <div id="tab-3" class="tab-content">
+            <p id="index3">오류(공지사항)</p>
+        </div>
+        <div id="tab-4" class="tab-content">
+            <p id="index4">오류(자유게시판)</p>
+        </div>
+    </main>
+</div>
+<!-- FOOTER -->
+<footer class="container">
+    footer
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>&copy; 2017-2019 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+</footer>
+</body>
+</html>
