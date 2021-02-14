@@ -10,7 +10,7 @@ router.get('/', function (req, res) {
     res.end(html);
   });
 });
-router.get('/true', function (req, res) {
+router.get('/portfolio/true', function (req, res) {
   console.log('/', req.session);
   fs.readFile('views/portfolio/true.html', function (err, html) {
     res.writeHead(200, {'Content-Type':'text/html'});
