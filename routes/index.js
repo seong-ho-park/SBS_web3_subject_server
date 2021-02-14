@@ -9,7 +9,7 @@ router.get('/', function (req, res) {
 });
 router.get('/true', function (req, res) {
   console.log('/', req.session);
-  fs.readFile('views/index.html', function (err, html) {
+  fs.readFile('views/portfolio/true.html', function (err, html) {
     res.writeHead(200, {'Content-Type':'text/html'});
     res.end(html);
   });
