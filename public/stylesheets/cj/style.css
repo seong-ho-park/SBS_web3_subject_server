@@ -78,7 +78,7 @@ display: block
 }*/
 
 /* index */
-@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url(https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 
 /* info */
 .info_link{
@@ -111,7 +111,7 @@ display: block
 .info_wrap form #search_btn{
     width: 20px;
     height: 20px;
-    background: url(../images/cjw-icon-search1.png) no-repeat center/contain;
+    background: url(../../images/cj/cjw-icon-search1.png) no-repeat center/contain;
     border:none;
     cursor: pointer;
     transform:translateX(-25px) ;
@@ -340,7 +340,7 @@ header .gnb_wrap{
     height: 100%;
     float: left;
     padding-top:  25px;
-    background: url(../images/cjw-bg-nav-brandStory.jpg) no-repeat right bottom;
+    background: url(../../images/cj/cjw-bg-nav-brandStory.jpg) no-repeat right bottom;
 }
 .gnb>li:nth-of-type(1) .gnb_right>div{
     width: 70%;
@@ -358,7 +358,7 @@ header .gnb_wrap{
     width: 107px;
     height: 36px;
     border: 2px solid #ccc;
-    background: url(../images/cjw-plus-section-blue.png) no-repeat 74px ;
+    background: url(../../images/cj/cjw-plus-section-blue.png) no-repeat 74px ;
     padding: 9px 33px 9px 10px ;
 }
 /* 푸드캐스트 right */
@@ -370,7 +370,7 @@ header .gnb_wrap{
     height: 100%;
     float: left;
     padding-top:  25px;
-    background: url(../images/cjw-bg-nav-foodCast.jpg) no-repeat right bottom;
+    background: url(../../images/cj/cjw-bg-nav-foodCast.jpg) no-repeat right bottom;
 }
 .gnb>li:nth-of-type(2) .gnb_right>div{
     width: 80%;
@@ -394,7 +394,7 @@ header .gnb_wrap{
     width: 107px;
     height: 36px;
     border: 2px solid #ccc;
-    background: url(../images/cjw-plus-section-blue.png) no-repeat 74px ;
+    background: url(../../images/cj/cjw-plus-section-blue.png) no-repeat 74px ;
     padding: 9px 33px 9px 10px ;
 }
 /* 푸드노하우 right */
@@ -406,7 +406,7 @@ header .gnb_wrap{
     height: 100%;
     float: left;
     padding-top:  25px;
-    background: url(../images/cjw-bg-nav-foodKnowhow.jpg) no-repeat right bottom;
+    background: url(../../images/cj/cjw-bg-nav-foodKnowhow.jpg) no-repeat right bottom;
 }
 .gnb>li:nth-of-type(3) .gnb_right>div{
     width: 80%;
@@ -430,7 +430,7 @@ header .gnb_wrap{
     width: 107px;
     height: 36px;
     border: 2px solid #ccc;
-    background: url(../images/cjw-plus-section-blue.png) no-repeat 74px ;
+    background: url(../../images/cj/cjw-plus-section-blue.png) no-repeat 74px ;
     padding: 9px 33px 9px 10px ;
 }
 
@@ -471,7 +471,7 @@ header .gnb_wrap{
     height: 100%;
     float: left;
     border-radius: 50%;
-    background: url(../images/cjw-sns-facebook.png) no-repeat center/contain;
+    background: url(../../images/cj/cjw-sns-facebook.png) no-repeat center/contain;
 }
 .gnb>li:nth-of-type(4) .gnb_right>div>ul>li:nth-of-type(2){
     width: 13.66%;
@@ -479,7 +479,7 @@ header .gnb_wrap{
     height: 100%;
     float: left;
     border-radius: 50%;
-    background: url(../images/cjw-sns-kakao.png) no-repeat center/contain;
+    background: url(../../images/cj/cjw-sns-kakao.png) no-repeat center/contain;
 }
 .gnb>li:nth-of-type(4) .gnb_right>div>ul>li:nth-of-type(3){
     width: 13.66%;
@@ -487,7 +487,7 @@ header .gnb_wrap{
     height: 100%;
     float: left;
     border-radius: 50%;
-    background: url(../images/cjw-sns-blog.png) no-repeat center/contain;
+    background: url(../../images/cj/cjw-sns-blog.png) no-repeat center/contain;
 }
 .gnb>li:nth-of-type(4) .gnb_right>div>ul>li:nth-of-type(4){
     width: 13.66%;
@@ -495,7 +495,7 @@ header .gnb_wrap{
     height: 100%;
     float: left;
     border-radius: 50%;
-    background: url(../images/cjw-sns-twitter.png) no-repeat center/contain;
+    background: url(../../images/cj/cjw-sns-twitter.png) no-repeat center/contain;
 }
 .gnb>li:nth-of-type(4) .gnb_right>div>ul>li:nth-of-type(5){
     width: 13.66%;
@@ -503,7 +503,7 @@ header .gnb_wrap{
     height: 100%;
     float: left;
     border-radius: 50%;
-    background: url(../images/cjw-sns-instagram.png) no-repeat center/contain;
+    background: url(../../images/cj/cjw-sns-instagram.png) no-repeat center/contain;
 }
 .gnb>li:nth-of-type(4) .gnb_right>div>ul>li:nth-of-type(6){
     width: 13.66%;
@@ -511,7 +511,7 @@ header .gnb_wrap{
     height: 100%;
     float: left;
     border-radius: 50%;
-    background: url(../images/cjw-sns-youtube.png) no-repeat center/contain;
+    background: url(../../images/cj/cjw-sns-youtube.png) no-repeat center/contain;
 }
 .gnb>li:nth-of-type(4) .gnb_right>div>ul>li>a{
     width: auto;
@@ -528,7 +528,7 @@ header .gnb_wrap{
     height: 100%;
     float: left;
     padding-top:  25px;
-    background: url(../images/cjw-bg-nav-friends.jpg) no-repeat right bottom;
+    background: url(../../images/cj/cjw-bg-nav-friends.jpg) no-repeat right bottom;
 }
 .gnb>li:nth-of-type(5) .gnb_right>div{
     width: 80%;
@@ -552,7 +552,7 @@ header .gnb_wrap{
     width: 107px;
     height: 36px;
     border: 2px solid #ccc;
-    background: url(../images/cjw-plus-section-blue.png) no-repeat 74px ;
+    background: url(../../images/cj/cjw-plus-section-blue.png) no-repeat 74px ;
     padding: 9px 33px 9px 10px ;
 }
 /* 이벤트 right */
@@ -564,7 +564,7 @@ header .gnb_wrap{
     height: 100%;
     float: left;
     padding-top:  25px;
-    background: url(../images/cjw-bg-nav-event.jpg) no-repeat right bottom;
+    background: url(../../images/cj/cjw-bg-nav-event.jpg) no-repeat right bottom;
 }
 .gnb>li:nth-of-type(6) .gnb_right>div{
     width: 80%;
@@ -588,6 +588,6 @@ header .gnb_wrap{
     width: 107px;
     height: 36px;
     border: 2px solid #ccc;
-    background: url(../images/cjw-plus-section-blue.png) no-repeat 74px ;
+    background: url(../../images/cj/cjw-plus-section-blue.png) no-repeat 74px ;
     padding: 9px 33px 9px 10px ;
 }
