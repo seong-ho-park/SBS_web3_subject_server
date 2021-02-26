@@ -176,6 +176,7 @@ header .gnb_wrap{
     float: left;
 }
 .gnb>li>a{
+    position: relative;
     display: block;
     width: auto;
     height: 100%;
@@ -189,18 +190,18 @@ header .gnb_wrap{
     font-weight: bold;
     color:#02b5d6
 }
-/* .gnb>li:nth-of-type(1)>a:hover::after{
+.gnb>li>a:hover::after{
     content: "";
     border-top: #02b5d6 15px solid;
     border-left: #fff 12px solid;
     border-right: #fff 12px solid;
     position: absolute;
-    top: 190px;
+    top: 63px;
     left: 45.5%;
 
     font-size: 0px;
 }
-.gnb>li:nth-of-type(2)>a:hover::after{
+/* .gnb>li:nth-of-type(2)>a:hover::after{
     content: "";
     border-top: #02b5d6 15px solid;
     border-left: #fff 12px solid;
